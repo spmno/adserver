@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @ad_movie.name %>
+</p>
+
+<p>
+  <strong>Url:</strong>
+  <%= @ad_movie.url %>
+</p>
+
+<p>
+  <strong>Size:</strong>
+  <%= @ad_movie.size %>
+</p>
+
+<%= link_to 'Edit', edit_ad_movie_path(@ad_movie) %> |
+<%= link_to 'Back', ad_movies_path %>

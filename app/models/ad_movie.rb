@@ -1,0 +1,2 @@
+class AdMovie < ApplicationRecord
+end
